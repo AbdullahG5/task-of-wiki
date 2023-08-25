@@ -45,6 +45,10 @@ a {
 .edit_button{
     color: snow;
     background-color: rgb(25, 3, 133);
+}
+.title_of_entry{
+    padding-bottom: 5px;
+    color: rgb(43, 247, 43);
 
 
 }
