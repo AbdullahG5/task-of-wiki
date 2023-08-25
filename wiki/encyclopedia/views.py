@@ -68,7 +68,7 @@ def Create_New_Page(request):
         if title not in util.list_entries():
             util.save_entry(title,content)
             return render(request,"encyclopedia/entry.html",{
-                "title":title,
+                'title':title,
                 'content': content}) 
         else:
             return render(request,"encyclopedia/error.html",{
